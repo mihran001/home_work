@@ -69,7 +69,7 @@ if (isset($_POST) && !empty($_POST)){
 }
 function review($password, $repassword){
     if ($password !== $repassword){
-        return "the passwod and repid password should be the same";
+        return "";
     }else{
          return "";
     }
